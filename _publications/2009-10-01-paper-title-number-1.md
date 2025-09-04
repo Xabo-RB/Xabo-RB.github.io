@@ -1,15 +1,9 @@
 ---
-title: "Paper Title Number 1"
+title: "Benchmarking tools for a priori identifiability analysis1"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+excerpt: "The theoretical possibility of determining the state and parameters of a dynamic model by measuring its outputs is given by its structural identifiability and its observability. These properties should be analysed before attempting to calibrate a model, but their a priori analysis can be challenging, requiring symbolic calculations that often have a high computational cost. In recent years, a number of software tools have been developed for this task, mostly in the systems biology community. These tools have vastly different features and capabilities, and a critical assessment of their performance is still lacking"
+date: February 2023
+venue: "Bioinformatics"
+paperurl: "https://doi.org/10.1093/bioinformatics/btad065"
+citation: "Rey Barreiro, X., & Villaverde, A. F. (2023). Benchmarking tools for a priori identifiability analysis. Bioinformatics, 39(2), btad065."
 ---
-This paper is about the number 1. The number 2 is left for future work.
-
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
-
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
