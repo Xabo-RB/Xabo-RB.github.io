@@ -11,7 +11,7 @@ title: "Xabier Rey Barreiro"
 title_separator: "-"
 name: &name "Xabier"
 description: &description "Research scientist at University of Vigo"
-url: https://Xabo-RB.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: https://xabo-rb.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "Xabo-RB.github.io"
 teaser: # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -66,9 +66,12 @@ og_image: # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type: # Person or Organization (defaults to Person)
-  name: # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type: Person # Cambia a "Person" (Persona) o "Organization" (Organización)
+  name: "Xabier Rey Barreiro" # Si es el mismo que 'title', puedes dejarlo en blanco.
+  links:
+    - "https://github.com/Xabo-RB"
+    - "https://scholar.google.com/citations?user=adkBkzUAAAAJ&hl=es&oi=ao"
+    - "https://www.researchgate.net/profile/Xabier-Rey-Barreiro"
 
 # Analytics
 analytics:
@@ -85,7 +88,7 @@ author:
   employer:
   pubmed:
   googlescholar: "https://scholar.google.com/citations?user=adkBkzUAAAAJ&hl=es&oi=ao"
-  email:
+  email: "xabier.rey@uvigo.gal"
   researchgate: "https://www.researchgate.net/profile/Xabier-Rey-Barreiro"
   uri:
   bitbucket:
@@ -100,8 +103,8 @@ author:
   instagram:
   impactstory: #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm:
-  linkedin:
-  orcid: #"http://orcid.org/yourorcidurl"
+  linkedin: "https://www.linkedin.com/in/xabier-rey-barreiro-452704208/"
+  orcid: "https://orcid.org/0000-0002-2390-4462"
   pinterest:
   soundcloud:
   stackoverflow: # http://stackoverflow.com/users/123456/username
