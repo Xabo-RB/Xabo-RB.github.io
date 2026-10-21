@@ -13,5 +13,4 @@ redirect_from:
 {% include academic/experience.html %}
 {% include academic/education.html %}
 {% include academic/teaching.html %}
-{% include academic/skills.html %}
 {% include academic/contact.html %}

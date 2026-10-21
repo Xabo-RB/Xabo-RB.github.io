@@ -1,7 +1,7 @@
 ---
 layout: academic
 title: "Curriculum vitae"
-description: "Academic curriculum vitae of Xabier Rey Barreiro: research, publications, teaching, education and technical skills."
+description: "Academic curriculum vitae of Xabier Rey Barreiro: research, research projects, publications, teaching and education."
 permalink: /cv/
 redirect_from:
   - /resume
@@ -13,6 +13,5 @@ redirect_from:
 {% include academic/projects.html %}
 {% include academic/publications.html %}
 {% include academic/teaching.html %}
-{% include academic/skills.html %}
 {% include academic/training.html %}
 {% include academic/talks.html %}

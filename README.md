@@ -4,7 +4,7 @@ English academic profile for GitHub Pages, built with the repository's existing 
 
 ## Edit the site
 
-- `_includes/academic/`: biography, research, publications, experience, education, teaching, tools, training and talks.
+- `_includes/academic/`: biography, research, publications, experience, education, teaching, training and talks.
 - `_layouts/academic.html`: shared document, navigation and footer.
 - `_pages/`: home, publications, teaching, research and curriculum vitae routes.
 - `assets/css/academic.css`: responsive styling and A4 print layout.
