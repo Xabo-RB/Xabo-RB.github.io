@@ -39,3 +39,5 @@
 @media print{.teaching-heading{margin-bottom:13pt}.teaching-heading h2{font-size:20pt}.teaching-heading .eyebrow{font-size:8pt}.teaching-heading>p:last-child{font-size:9pt}.academic-table-scroll{overflow:visible}.academic-table{min-width:0;font-size:9pt;width:100%;border-color:#777}.academic-table caption{font-size:11pt;padding-bottom:9pt;break-after:avoid}.academic-table thead{display:table-header-group}.academic-table thead th{font-size:8pt;background:white}.academic-table th,.academic-table td{padding:8pt 7pt;border-color:#bbb}.academic-table tr{break-inside:avoid}.table-detail{font-size:8pt}.supervision-table-wrap{margin-top:20pt}.supervision-table{min-width:0}.academic-table .year-column{width:12%}.academic-table .course-column{width:38%}}
 
 .wordmark{letter-spacing:-2.5px}
+
+.hero-description strong{font-size:15px;font-weight:600;color:var(--ink)}
