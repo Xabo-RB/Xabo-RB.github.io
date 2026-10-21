@@ -6,7 +6,7 @@ English academic profile for GitHub Pages, built with the repository's existing 
 
 - `_includes/academic/`: biography, research, publications, experience, education, teaching, training and talks.
 - `_layouts/academic.html`: shared document, navigation and footer.
-- `_pages/`: home, publications, teaching, research and curriculum vitae routes.
+- `_pages/`: a concise homepage (profile, research and GitHub link) and the complete curriculum vitae. The CV includes section links for experience, education, projects, publications, teaching, training and outreach.
 - `assets/css/academic.css`: responsive styling and A4 print layout.
 - `assets/js/academic.js`: publication year filters and CV printing.
 
@@ -23,4 +23,4 @@ bundle exec jekyll serve
 
 Open http://127.0.0.1:4000. GitHub Pages can build the site from the root of the existing publishing branch. Push the reviewed changes using the repository's normal workflow to publish them.
 
-Legacy Academic Pages examples are retained in the repository but excluded from the site. Existing `/about/`, `/about.html`, `/resume`, `/resume/` and `/curriculum/` links redirect to their current pages. The original template license remains in `LICENSE`.
+Legacy Academic Pages examples are retained in the repository but excluded from the site. Existing `/about/`, `/about.html`, `/resume`, `/resume/` and `/curriculum/` links redirect to their current pages. Legacy `/projects/`, `/publications/` and `/teaching/` routes redirect to the corresponding sections of `/cv/`. The original template license remains in `LICENSE`.

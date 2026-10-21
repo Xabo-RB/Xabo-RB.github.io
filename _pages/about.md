@@ -9,8 +9,3 @@ redirect_from:
 ---
 {% include academic/hero.html %}
 {% include academic/research.html %}
-{% include academic/publications.html %}
-{% include academic/experience.html %}
-{% include academic/education.html %}
-{% include academic/teaching.html %}
-{% include academic/contact.html %}

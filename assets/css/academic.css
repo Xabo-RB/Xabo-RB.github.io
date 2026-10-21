@@ -68,3 +68,10 @@
 .contact-email span{padding-left:15px}
 .contact-profiles{margin-top:18px}
 @media(max-width:760px){.contact-section{padding-block:40px}.contact-section h2{font-size:26px}.contact-profiles{flex-wrap:wrap;gap:14px 24px}}
+
+/* The homepage is a short research profile; the full record lives in the CV. */
+.cv-section-nav{display:flex;flex-wrap:wrap;gap:12px 27px;padding-block:21px 25px;border-bottom:1px solid var(--line);font-size:12px}
+.cv-section-nav a{padding-block:3px}
+.cv-section-nav+.section{padding-top:55px}
+@media(max-width:760px){.site-header nav{justify-content:flex-start;gap:30px}.cv-section-nav{gap:9px 21px;font-size:11px;padding-block:18px 22px}.cv-section-nav+.section{padding-top:40px}}
+@media print{.cv-section-nav{display:none}.cv-section-nav+.section{padding-top:18pt}}
