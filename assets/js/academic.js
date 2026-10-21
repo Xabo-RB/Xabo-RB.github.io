@@ -21,16 +21,6 @@
       controls.querySelector('[aria-pressed="true"]').click();
     });
   }
-  document.querySelectorAll('.print-cv').forEach(button => {
-    button.hidden = false;
-    button.addEventListener('click', () => {
-      document.querySelectorAll('details').forEach(item => { item.dataset.wasOpen = item.open; item.open = true; });
-      window.print();
-    });
-  });
-  window.addEventListener('afterprint', () => {
-    document.querySelectorAll('details[data-was-open]').forEach(item => { item.open = item.dataset.wasOpen === 'true'; delete item.dataset.wasOpen; });
-  });
   document.querySelectorAll('nav a').forEach(link => {
     if (!link.hash && link.pathname === location.pathname) link.setAttribute('aria-current', 'page');
   });

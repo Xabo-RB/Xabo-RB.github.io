@@ -8,9 +8,9 @@ English academic profile for GitHub Pages, built with the repository's existing 
 - `_layouts/academic.html`: shared document, navigation and footer.
 - `_pages/`: a concise homepage (profile, research and GitHub link) and separate Publications and Conferences, Teaching, and Curriculum tabs. The complete CV includes section links for experience, education, projects, publications, teaching, training and outreach.
 - `assets/css/academic.css`: responsive styling and A4 print layout.
-- `assets/js/academic.js`: publication year filters and CV printing.
+- `assets/js/academic.js`: publication year filters and current page indicators.
 
-No frontend build or external font service is needed. All content and navigation remain available without JavaScript. The CV page has a **Print / Save as PDF** button; the browser's print command also works.
+No frontend build or external font service is needed. All content and navigation remain available without JavaScript. The CV page provides direct links to each section of the academic record.
 
 ## Preview with Jekyll
 
