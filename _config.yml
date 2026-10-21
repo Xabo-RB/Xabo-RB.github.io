@@ -9,11 +9,11 @@
 locale: "en-US"
 title: "Xabier Rey Barreiro"
 title_separator: "-"
-name: &name "Xabier"
-description: &description "Research scientist at University of Vigo"
+name: &name "Xabier Rey Barreiro"
+description: &description "Predoctoral researcher in mathematical systems biology at the University of Vigo"
 url: https://xabo-rb.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
-repository: "Xabo-RB.github.io"
+repository: "Xabo-RB/Xabo-RB.github.io"
 teaser: # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs: false # true, false (default)
 words_per_minute: 160
@@ -75,7 +75,7 @@ social:
 
 # Analytics
 analytics:
-  provider: "google-universal" # false (default), "google", "google-universal", "custom"
+  provider: false # false (default), "google", "google-universal", "custom"
   google:
     tracking_id:
 
@@ -83,7 +83,7 @@ analytics:
 author:
   name: "Xabier Rey Barreiro"
   avatar: "Foto_autor1.jpg"
-  bio: "Graduated in mechanical engineering and currently working as predoctoral researcher at University of Vigo."
+  bio: "Predoctoral researcher in structural identifiability, control theory and mathematical immunology at the University of Vigo."
   location: "Vigo, Galicia, Spain"
   employer:
   pubmed:
@@ -123,6 +123,28 @@ include:
   - _pages
   - files
 exclude:
+  - _posts
+  - _drafts
+  - _portfolio
+  - _talks
+  - _teaching
+  - _publications
+  - markdown_generator
+  - talkmap
+  - talkmap.ipynb
+  - talkmap.py
+  - _pages/archive-layout-with-content.md
+  - _pages/category-archive.html
+  - _pages/collection-archive.html
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/page-archive.html
+  - _pages/portfolio.html
+  - _pages/tag-archive.html
+  - _pages/talkmap.html
+  - _pages/talks.html
+  - _pages/terms.md
+  - _pages/year-archive.html
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -173,16 +195,16 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 # Defaults
@@ -250,7 +272,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Spain/Madrid # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Madrid # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins
 plugins:

@@ -1,16 +1,8 @@
 ---
-layout: archive
+layout: academic
 title: "Publications"
+description: "Publications by Xabier Rey Barreiro on structural identifiability, observability and T-cell activation."
 permalink: /publications/
-author_profile: false
 ---
-
-{% if author.googlescholar %}
-You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-{% include archive-single.html %}
-{% endfor %}
+<div class="page-intro wrap"><p class="eyebrow">XABIER REY BARREIRO</p><h1>Publications<span class="accent">.</span></h1><p>Journal articles and a preprint, from identifiability theory to mathematical immunology.</p></div>{% include academic/publications.html %}
+{% include academic/contact.html %}
