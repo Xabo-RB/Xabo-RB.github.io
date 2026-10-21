@@ -1,6 +1,6 @@
-# Xabier Rey Barreiro · Academic website
+# xabo · Xabier Rey Barreiro
 
-English academic profile for GitHub Pages, built with the repository's existing Jekyll setup. Content is based on the supplied April 2026 curriculum vitae and the existing researcher profile. Research stays in 2025 are presented as completed.
+English academic profile for GitHub Pages, built with the repository's existing Jekyll setup. Content is based on the supplied November 2026 curriculum vitae and the existing researcher profile. The profile includes the postdoctoral appointment beginning in September 2026, the completed doctorate, and the latest teaching, supervision, publications and outreach. Teaching and undergraduate thesis supervision use formal tables.
 
 ## Edit the site
 

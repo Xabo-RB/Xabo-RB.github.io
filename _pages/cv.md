@@ -8,7 +8,7 @@ redirect_from:
   - /resume/
   - /curriculum/
 ---
-<div class="page-intro cv-intro wrap"><div><p class="eyebrow">XABIER REY BARREIRO</p><h1>Curriculum vitae<span class="accent">.</span></h1><p>Predoctoral Research Fellow · Universidade de Vigo<br><a href="mailto:xabier.rey@uvigo.gal">xabier.rey@uvigo.gal</a> · Vigo, Spain</p><p class="cv-summary">Mechanical engineer with an MSc in Industrial Mathematics, specialising in the modelling, analysis and control of biomedical systems.</p></div><button type="button" class="button print-cv" hidden>Print / Save as PDF <span aria-hidden="true">↗</span></button></div>{% include academic/experience.html %}
+<div class="page-intro cv-intro wrap"><div><p class="eyebrow">XABIER REY BARREIRO</p><h1>Curriculum vitae<span class="accent">.</span></h1><p>Postdoctoral Research Fellow · Universidade de Vigo<br><a href="mailto:xabier.rey@uvigo.gal">xabier.rey@uvigo.gal</a> · Vigo, Spain</p><p class="cv-summary">PhD in Mathematical Methods and Numerical Simulation, with an MSc in Industrial Mathematics and a BSc in Mechanical Engineering. My research focuses on the modelling, analysis and control of biomedical systems.</p></div><button type="button" class="button print-cv" hidden>Print / Save as PDF <span aria-hidden="true">↗</span></button></div>{% include academic/experience.html %}
 {% include academic/education.html %}
 {% include academic/publications.html %}
 {% include academic/teaching.html %}

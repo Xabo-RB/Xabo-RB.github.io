@@ -7,10 +7,10 @@
 
 # Site Settings
 locale: "en-US"
-title: "Xabier Rey Barreiro"
+title: "xabo"
 title_separator: "-"
 name: &name "Xabier Rey Barreiro"
-description: &description "Predoctoral researcher in mathematical systems biology at the University of Vigo"
+description: &description "Postdoctoral researcher in mathematical systems biology at the University of Vigo"
 url: https://xabo-rb.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "Xabo-RB/Xabo-RB.github.io"
@@ -83,7 +83,7 @@ analytics:
 author:
   name: "Xabier Rey Barreiro"
   avatar: "Foto_autor1.jpg"
-  bio: "Predoctoral researcher in structural identifiability, control theory and mathematical immunology at the University of Vigo."
+  bio: "Postdoctoral researcher in structural identifiability, control theory and mathematical immunology at the University of Vigo."
   location: "Vigo, Galicia, Spain"
   employer:
   pubmed:
